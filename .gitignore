@@ -19,3 +19,50 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+/angular2t/node_modules
+/angular2/npm-debug.log
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/angular2/dist
+/angular2/tmp
+
+# dependencies
+/angular2/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/angular2/.vscode/*
+/angular2/!.vscode/settings.json
+/angular2/!.vscode/tasks.json
+/angular2/!.vscode/launch.json
+/angular2/!.vscode/extensions.json
+
+# misc
+/angular2/.sass-cache
+/angular2/connect.lock
+/angular2/coverage/*
+/angular2/libpeerconnection.log
+/angular2/npm-debug.log
+/angular2/testem.log
+/angular2/typings
+
+# e2e
+/angular2/e2e/*.js
+/angular2/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
